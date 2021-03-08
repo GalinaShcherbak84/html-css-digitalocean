@@ -2,46 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 /* colori */
-color1{
-    color:#004aff;
+.color1{
+    color:#2586fd;
 }
-color2{
+.color2{
     color:#011d4c;
 }
-color3{
+.color3{
     color:#75819a;
 }
-color5{
+.color5{
     color:#00a4c9;
 }
 /* utility */
 a{
     text-decoration: none;
+    color:#011d4c ;
+    font-weight: 500;
 }
 li{
     list-style: none;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 ul li:last-child{
     padding-right: 0px;
 }
+.text-center{
+    text-align: center;
+}
 /* header */
 header{
     position: fixed;
+    padding: 10px 0;
+    background-color: white;
 }
 .contenuto{
     position: relative;
 }
 .container{
-    background-color: darkgreen;
-    height: 70px;
+    height: 60px;
 }
 .menu{
-    height: 70px;
-    background: darkmagenta;
+    height: 60px;
 }
 header img{
     position: relative;
@@ -50,13 +57,14 @@ header img{
     
 }
 header i{
-    height: 70px;
+    height: 60px;
     text-align: right;
     font-size: 20px;
-    padding-top: 25px;
+    padding-top: 20px;
+    color:#2586fd;
 }
 header li{
-    line-height: 70px;
+    line-height: 60px;
 }
 .due{
     text-align: right;
@@ -64,6 +72,19 @@ header li{
 .menu{
     overflow: hidden;
 }
+/* Sezione "The simplest cloud... */
+.simplest_cloud{
+    padding-top: 80px;
+    background-image:url(./digital_ocean/img/bg-banner-home.jpg);
+    background-size: cover;
+    color: white;
+}
+form{
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+}
+
 
 
 

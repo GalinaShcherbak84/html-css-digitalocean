@@ -9,19 +9,22 @@
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 12px;
-    }
-    h1{
-        font-size: 20px;
-    }
-    h2{
-        font-size: 18px;
-    }
-    h3{
         font-size: 16px;
     }
+    a {
+        font-size:16px ;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 22px;
+    }
     h4{
-        font-size: 14px;
+        font-size: 20px;
     }
     /* header */
     .uno,
@@ -34,7 +37,7 @@
 
 }
 
-/* sm */
+/* md */
 @media screen and (min-width: 768px){
     .h1, .h2, .h3, h1, h2, h3 {
         margin-top: 10px;
@@ -44,19 +47,22 @@
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 14px;
+        font-size: 16px;
+    }
+    a {
+        font-size:16px ;
     }
     h1{
-        font-size: 26px;
+        font-size: 36px;
     }
     h2{
-        font-size: 22px;
+        font-size: 28px;
     }
     h3{
-        font-size: 18px;
+        font-size: 22px;
     }
     h4{
-        font-size: 16px;
+        font-size: 20px;
     }
     /* header */
     
@@ -66,7 +72,7 @@
 }
     
 
-/* md */
+/* lg */
 @media screen and (min-width: 992px){
     .h1, .h2, .h3, h1, h2, h3 {
         margin-top: 15px;
@@ -75,19 +81,22 @@
     p {
         margin-top:15px;
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 18px;
+    }
+    a {
+        font-size:18px ;
     }
     h1{
-        font-size: 30px;
+        font-size: 38px;
     }
     h2{
-        font-size: 24px;
+        font-size: 30px;
     }
     h3{
-        font-size: 20px;
+        font-size: 24px;
     }
     h4{
-        font-size: 16px;
+        font-size: 20px;
     }
     /* header */
     
@@ -99,34 +108,5 @@
     
     
 }
-/* lg */
-@media screen and (min-width: 1200px){
-    .h1, .h2, .h3, h1, h2, h3 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    p {
-        margin-top:20px;
-        margin-bottom: 20px;
-        font-size: 16px;
-    }
-    h1{
-        font-size: 36px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    h3{
-        font-size: 24px;
-    }
-    h4{
-        font-size: 20px;
-    }
-    /* header */
-    .uno,
-    .due{
-        display:block;
-    }
-    
 
-}
+
