@@ -2,12 +2,12 @@
 [class*="col-"]{
     float: left;
 }
-.container::after{
+.container1::after{
     content: "";
     display:table;
     clear: both;
 }
-.container{
+.container1{
     width: 100%;
 }
 /* colonne */
