@@ -75,7 +75,7 @@
 
     /* Sezione "The simplest cloud..." */
     .right{
-        padding: 20px 20px 20px 0;
+        padding-right: 20px;
     }
     
     
@@ -93,14 +93,14 @@
     p {
         margin-top:15px;
         margin-bottom: 15px;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 28px;
+        line-height: 32px;
     }
     a {
         font-size:18px ;
     }
     h1{
-        font-size: 38px;
+        font-size: 50px;
     }
     h2{
         font-size: 30px;
@@ -120,7 +120,7 @@
 
     /* Sezione "The simplest cloud..." */
     .right{
-        padding: 20px 20px 20px 0;
+        padding-right: 20px;
     }
     
     

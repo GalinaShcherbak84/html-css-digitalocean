@@ -170,8 +170,43 @@ form p a:active,
 form p a:focus{
     text-decoration: underline;
 }
-
-
+/* Sezione img-loghi */
+.loghi{
+    background-color: #f3f5f9;
+    padding: 20px 0;
+    text-align: center;
+    color:#75819a;
+}
+.loghi a{
+    color:#00a4c9;
+}
+.loghi a:hover,
+.loghi a:focus,
+.loghi a:active{
+    color:black;
+}
+.cella{
+    height: 100px;
+    padding: 5px;
+    background-image:url(./digital_ocean/img/docker.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.cella:nth-child(2){
+    background-image: url(./digital_ocean/img/gitlab.svg);
+}
+.cella:nth-child(3){
+    background-image:url(./digital_ocean/img/slack.svg) ;
+}
+.cella:nth-child(4),
+.cella:nth-child(5){
+    background-image: url(./digital_ocean/img/hashicorp.svg);
+}
+.cella:nth-child(6){
+    background-image: url(./digital_ocean/img/splunk.svg);
+}
 
 
 
