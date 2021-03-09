@@ -22,6 +22,9 @@
 .color6{
     color:#818181;
 }
+.color7{
+    color: lightgray;
+}
 /* utility */
 a{
     text-decoration: none;
@@ -39,6 +42,18 @@ li{
     list-style: none;
     display: inline-block;
     padding-right: 15px;
+}
+.li-block{
+    display: block;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
 }
 ul li:last-child{
     padding-right: 0px;
@@ -207,6 +222,41 @@ form p a:focus{
 .cella:nth-child(6){
     background-image: url(./digital_ocean/img/splunk.svg);
 }
+/* Sezione "Deploy and scale seamlessly" */
+.deploy-and-scale{
+    padding-top: 20px;
+    text-align: center;
+    color:#75819a ;
+}
+.deploy-and-scale ul{
+    font-size: 28px;
+    line-height: 58px;
+    border-left: solid 1px #75819a;
+    padding-left: 10px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.deploy-and-scale h2{
+    margin-bottom: 0;
+}
+.container-cards{
+    margin-top:40px;
+    margin-bottom: 0px;
+}
+.card{
+    margin-bottom: 40px;
+}
+.card h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
 
 
 

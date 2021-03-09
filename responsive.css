@@ -10,17 +10,17 @@
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 38px;
     }
     a {
         font-size:16px ;
     }
     h1{
-        font-size: 36px;
+        font-size: 40px;
     }
     h2{
-        font-size: 28px;
+        font-size: 34px;
     }
     h3{
         font-size: 22px;
@@ -37,7 +37,10 @@
     .right{
         padding: 0px;
     }
-    
+    /* Sezione "Deploy and scale seamlessly" */
+    .card{
+        padding-left:0;
+    }
     
 
 }
@@ -53,17 +56,17 @@
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 38px;
     }
     a {
         font-size:16px ;
     }
     h1{
-        font-size: 36px;
+        font-size: 50px;
     }
     h2{
-        font-size: 28px;
+        font-size: 40px;
     }
     h3{
         font-size: 22px;
@@ -76,6 +79,10 @@
     /* Sezione "The simplest cloud..." */
     .right{
         padding-right: 20px;
+    }
+    /* Sezione "Deploy and scale seamlessly" */
+    .card{
+        padding-left: 20px;
     }
     
     
@@ -93,8 +100,8 @@
     p {
         margin-top:15px;
         margin-bottom: 15px;
-        font-size: 28px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 38px;
     }
     a {
         font-size:18px ;
@@ -103,7 +110,7 @@
         font-size: 50px;
     }
     h2{
-        font-size: 30px;
+        font-size: 40px;
     }
     h3{
         font-size: 24px;
@@ -122,8 +129,10 @@
     .right{
         padding-right: 20px;
     }
-    
-    
+    /* Sezione "Deploy and scale seamlessly" */
+    .card{
+        padding-left: 20px;
+    }
     
 }
 
