@@ -62,13 +62,23 @@ ul li:last-child{
     padding: 8px;
     box-shadow: 1px 1px 2px #818181;
     margin-bottom: 10px;
+    font-weight: bold;
 }
-
+.btm2{
+    background-color:white;
+    font-size: 16px;
+    color: #2586fd;
+    border-radius: 5px;
+    padding: 10px 8px;
+    border:1px solid #2586fd;
+}
 /* header */
 header{
+    width: 100%;
     position: fixed;
     padding: 10px 0;
     background-color: white;
+    z-index: 100;
 }
 .contenuto{
     position: relative;
@@ -85,12 +95,16 @@ header img{
     transform: translateY(-50%);
     
 }
-header i{
+header i:not(a i){
     height: 60px;
     text-align: right;
     font-size: 20px;
     padding-top: 20px;
     color:#2586fd;
+}
+header a i{
+    margin-left: 5px;
+    vertical-align: middle;
 }
 header li{
     line-height: 60px;
@@ -132,7 +146,7 @@ form h3{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-form a .btm1{
+form .btm1{
     position: relative;
 }
 form a img{
@@ -156,6 +170,7 @@ form p a:active,
 form p a:focus{
     text-decoration: underline;
 }
+
 
 
 

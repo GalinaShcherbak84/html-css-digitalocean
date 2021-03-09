@@ -165,7 +165,7 @@
     }
 }
 
-/* da 768 px a 991 - md */
+/* da 768 px a 1200 - md */
 @media screen and (min-width:768px){
 /* colonne */
     .col-md-12{
@@ -245,8 +245,8 @@
         margin-left: 0;
     }
 }
-/* da 992 in su - lg */
-@media screen and (min-width:992px){
+/* da 1200 in su - lg */
+@media screen and (min-width:1200px){
     /* colonne */
     .col-lg-12{
         width: 100%;

@@ -1,16 +1,17 @@
 /* responsive*/
 /* xs */
 @media screen and (min-width: 0){
-    .h1, .h2, .h3, h1, h2, h3,
+    h1, h2, h3, h4, 
     section.simplest_cloud form {
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 20px;
         font-weight: bold;
     }
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 24px;
     }
     a {
         font-size:16px ;
@@ -32,7 +33,10 @@
     .due{
         display: none;
     }
-    
+    /* Sezione "The simplest cloud..." */
+    .right{
+        padding: 0px;
+    }
     
     
 
@@ -40,16 +44,17 @@
 
 /* md */
 @media screen and (min-width: 768px){
-    .h1, .h2, .h3, h1, h2, h3,
+    h1, h2, h3, h4,
     section.simplest_cloud form {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         font-weight: bold;
     }
     p {
         margin-top:10px;
         margin-bottom:10px;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 24px;
     }
     a {
         font-size:16px ;
@@ -67,24 +72,29 @@
         font-size: 20px;
     }
     /* header */
-    
-    
+
+    /* Sezione "The simplest cloud..." */
+    .right{
+        padding: 20px 20px 20px 0;
+    }
     
     
 }
     
 
 /* lg */
-@media screen and (min-width: 992px){
-    .h1, .h2, .h3, h1, h2, h3,
+@media screen and (min-width: 1200px){
+    h1, h2, h3, h4
     section.simplest_cloud form {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
+
     p {
         margin-top:15px;
         margin-bottom: 15px;
         font-size: 18px;
+        line-height: 26px;
     }
     a {
         font-size:18px ;
@@ -106,6 +116,11 @@
     .uno,
     .due{
         display:block;
+    }
+
+    /* Sezione "The simplest cloud..." */
+    .right{
+        padding: 20px 20px 20px 0;
     }
     
     
