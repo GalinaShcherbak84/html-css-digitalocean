@@ -223,7 +223,8 @@ form p a:focus{
     background-image: url(./digital_ocean/img/splunk.svg);
 }
 /* Sezione "Deploy and scale seamlessly" */
-.deploy-and-scale{
+.deploy-and-scale,
+.designed-for{
     padding-top: 20px;
     text-align: center;
     color:#75819a ;
@@ -236,7 +237,8 @@ form p a:focus{
     margin-top:40px;
     margin-bottom: 40px;
 }
-.deploy-and-scale h2{
+.deploy-and-scale h2,
+.designed-for h2{
     margin-bottom: 0;
 }
 .container-cards{
@@ -250,11 +252,54 @@ form p a:focus{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.card p{
+.card p,
+.slide p{
     font-size: 18px;
     line-height: 28px;
 }
-
+/* Sezione "Designed for developers */
+.designed-for{
+    background-color: #f3f5f9;
+    padding-bottom: 20px;
+}
+.slide{
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+}
+.slide img{
+    width: 80%;
+}
+.slide::before{
+    content: "\2039";
+    font-size: 120px;
+    margin-right: 15px;
+    position: absolute;
+    bottom:50%;
+    left:0;
+    transform: translateY(+50%);
+}
+.slide::after{
+    content:"\203A";
+    font-size: 120px;
+    margin-left: 15px;
+    position: absolute;
+    bottom:50%;
+    right: 0;
+    transform: translateY(+50%);
+    color:#011d4c;
+}
+.palline li{
+    width: 10px;
+    height: 10px;
+    border:solid 1px #2586fd;
+    border-radius: 50%;
+    margin:0 4px;
+    padding-right: 0;
+}
+.palline li:first-child{
+    background-color:#2586fd ;
+}
 
 
 

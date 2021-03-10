@@ -41,6 +41,11 @@
     .card{
         padding-left:0;
     }
+    /* Sezione "Designed for developers */
+    .slide::after,
+    .slide::before{
+        display: none;
+    }
     
 
 }
@@ -83,6 +88,11 @@
     /* Sezione "Deploy and scale seamlessly" */
     .card{
         padding-left: 20px;
+    }
+    /* Sezione "Designed for developers */
+    .slide::after,
+    .slide::before{
+        display:block;
     }
     
     
