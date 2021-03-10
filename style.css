@@ -36,7 +36,7 @@ a:active,
 a:focus{
     cursor: pointer;
     text-decoration: none;
-    color:black;
+    color:#00a4c9;
 }
 li{
     list-style: none;
@@ -69,6 +69,11 @@ ul li:last-child{
     padding: 8px;
     margin-bottom: 10px;
 }
+.btm:active,
+.btm:focus,
+.btm:hover{
+    color:#011d4c;
+}
 .btm1{
     background-color:white;
     font-size: 14px;
@@ -86,6 +91,12 @@ ul li:last-child{
     border-radius: 5px;
     padding: 10px 8px;
     border:1px solid #2586fd;
+}
+.btm2:focus,
+.btm2:hover,
+.btm2:active{
+    border-color: #011d4c;
+    color:#011d4c;
 }
 /* header */
 header{
@@ -184,6 +195,7 @@ form p a:hover,
 form p a:active,
 form p a:focus{
     text-decoration: underline;
+    color:#011d4c;
 }
 /* Sezione img-loghi */
 .loghi{
@@ -211,7 +223,7 @@ table a:active,
 .development-teams-love .slide a:hover,
 .development-teams-love .slide a:active,
 .development-teams-love .slide a:focus{
-    color:black;
+    color:#011d4c;
 }
 .cella{
     height: 100px;
@@ -371,6 +383,45 @@ td.color7{
 .get-started h2{
     margin-bottom: 0;
     padding-bottom:30px ;
+}
+/* footer */
+footer{
+    background-color:#011d4c;
+    padding-top:60px;
+    padding-bottom: 40px;
+    color:#75819a;
+}
+footer p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+footer li{
+    display: block;
+    padding: 5px 0;
+}
+footer ul{
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+footer a{
+    color: #75819a;
+}
+footer li:first-child{
+    padding-top: 0;
+}
+footer li:last-child{
+    padding-bottom: 0;
+}
+footer h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
 }
 
 
