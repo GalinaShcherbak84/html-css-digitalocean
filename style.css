@@ -193,7 +193,8 @@ form p a:focus{
     color:#75819a;
 }
 .loghi a,
-.card a{
+.card a,
+table a{
     color:#00a4c9;
 }
 .loghi a:hover,
@@ -201,7 +202,10 @@ form p a:focus{
 .loghi a:active,
 .card a:hover,
 .card a:focus,
-.card a:active{
+.card a:active,
+table a:hover,
+table a:focus,
+table a:active{
     color:black;
 }
 .cella{
@@ -231,6 +235,7 @@ form p a:focus{
 .designed-for,
 .the-features{
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color:#75819a ;
 }
@@ -294,6 +299,9 @@ form p a:focus{
     transform: translateY(+50%);
     color:#011d4c;
 }
+.palline{
+    margin-bottom: 40px;
+}
 .palline li{
     width: 10px;
     height: 10px;
@@ -309,7 +317,28 @@ form p a:focus{
 .the-features .container-cards{
     margin-top: 20px;
 }
+/* Service your customers around the world from 12 regions*/
+.service-your-customers{
+    background-color:#0146fb;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+tr{
+    border-bottom: 2px solid white;
+    height:40px;
+    font-size: 14px;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
 
 
 
