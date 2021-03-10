@@ -194,8 +194,10 @@ form p a:focus{
 }
 .loghi a,
 .card a,
-table a{
+table a,
+.development-teams-love .slide a{
     color:#00a4c9;
+    font-size: 16px;
 }
 .loghi a:hover,
 .loghi a:focus,
@@ -205,7 +207,10 @@ table a{
 .card a:active,
 table a:hover,
 table a:focus,
-table a:active{
+table a:active,
+.development-teams-love .slide a:hover,
+.development-teams-love .slide a:active,
+.development-teams-love .slide a:focus{
     color:black;
 }
 .cella{
@@ -285,18 +290,18 @@ table a:active{
     font-size: 120px;
     margin-right: 15px;
     position: absolute;
-    bottom:50%;
+    top:50%;
     left:0;
-    transform: translateY(+50%);
+    transform: translateY(-50%);
 }
 .slide::after{
     content:"\203A";
     font-size: 120px;
     margin-left: 15px;
     position: absolute;
-    bottom:50%;
+    top:50%;
     right: 0;
-    transform: translateY(+50%);
+    transform: translateY(-50%);
     color:#011d4c;
 }
 .palline{
@@ -338,6 +343,24 @@ tr{
 
 tr:last-child{
     border-bottom: none;
+}
+td.color7{
+    padding-left: 10px;
+}
+/* Sezione "Development teams love DigitalOcean" */
+.development-teams-love h2{
+    margin-bottom: 40px;
+}
+.development-teams-love .slide .container-img{
+    background-color: white;
+    padding:40px 0;
+}
+.development-teams-love .slide img{
+    width: 60%;
+}
+.development-teams-love .slide p.color2{
+    font-size: 16px;
+    line-height: 20px;
 }
 
 
