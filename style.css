@@ -362,6 +362,16 @@ td.color7{
     font-size: 16px;
     line-height: 20px;
 }
+/* Sezione "Get started now. */
+.get-started{
+    background-color:#0146fb;
+    color:white;
+    padding-bottom: 50px;
+}
+.get-started h2{
+    margin-bottom: 0;
+    padding-bottom:30px ;
+}
 
 
 
