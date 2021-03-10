@@ -105,6 +105,7 @@ header{
     padding: 10px 0;
     background-color: white;
     z-index: 100;
+    filter: drop-shadow(1px 1px 2px black);
 }
 .contenuto{
     position: relative;
@@ -423,6 +424,7 @@ footer h4{
     margin-bottom: 0;
     color: white;
 }
+
 
 
 
